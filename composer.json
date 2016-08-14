@@ -1,0 +1,19 @@
+{
+  "name": "tndavaloz/FunTimes",
+  "description": "A way to query results from the Nutshell API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Davaloz",
+            "email": "ndavaloz@gmail.com"
+        }
+    ],
+    "autoload" : {
+	   "psr-4": {
+	    "NutShellAPI\\": "src/"
+       }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
